@@ -1,0 +1,69 @@
+body{
+    /* height: 100vh;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+
+}
+
+
+form{
+    height: auto;
+    width: 500px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.col-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 97%;
+}
+
+.form-check{
+    position: absolute;
+    left: 0%;
+}
+
+.form-check-input:active{
+    background-color: red;
+}
+
+.have-account{
+    position: absolute;
+    right: 0%;
+}
+
+.have-account a{
+    color: #ff9100;
+    text-decoration: none;
+}
+
+.have-account a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    background-color: #ff9100;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.btn:hover{
+    background-color: #f3a949;
+    color: black;
+}
